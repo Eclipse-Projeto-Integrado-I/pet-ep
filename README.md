@@ -36,9 +36,9 @@ O sistema resolve esse problema centralizando as tabelas de equivalência de pon
  
 | Nome | Função | Descrição |
 |---|---|---|
-| Jonata Monteiro Alves | Product Owner /  UX/UI Designer  |
-| Antonio Pedro Martins Alves | Desenvolvedor Full-Stack |
-| Pedro Roger Silva Peixoto | Desenvolvedor Full-Stack |
+| Jonata Monteiro Alves | Product Owner /  UX/UI Designer  |Aluno do curso de Sistemas e Mídias Digitais, designer e programador front end.
+| Antonio Pedro Martins Alves | Desenvolvedor Full-Stack | Aluno de Sistemas e Mídias Digitais, atualmente atuando como programador fullstack no projeto IPREDE.
+| Pedro Roger Silva Peixoto | Desenvolvedor Full-Stack | Aluno do curso de Sistemas e Mídias Digitais, programador backend.
 | Joel Soares Silva | Desenvolvedor Full-Stack | Aluno do curso de Sistemas e Mídias Digitais, atualmente aprofundando conhecimentos nas áreas de análise de dados e desenvolvimento web |
 | Davi Vasconcelos Viana | UX/UI Designer | Designer gráfico e de interfaces, desenvolvedor front-end e editor de video. Aluno do curso de Sistemas e mídias digitais |
 | Danilo Everton Vaz de Sousa | QA / Testes | Aluno do curso de Sistemas e Mídias Digitais. Atualmente focado em estudos nas áreas de design de interfaces e desenvolvimento web |
