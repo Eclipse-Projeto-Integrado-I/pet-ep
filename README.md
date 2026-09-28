@@ -76,11 +76,11 @@ Consulte o arquivo [LICENSE](LICENSE) para mais detalhes.
 
 | ID | Título | Descrição | Prioridade | Depende de | Status |
 |---|---|---|---|---|---|
-| RF01 | Autenticar Usuário | Permitir que membros e coordenadores façam login utilizando e-mail institucional da UFC e senha, com validação de credenciais e emissão de sessão/token de acesso. | Alta | Nenhum | Em Andamento |
-| RF02 | Cadastrar Membro | Permitir que o coordenador cadastre um novo membro (PETiano) no sistema, informando nome, e-mail institucional, curso e data de ingresso no PET. | Alta | RF01 | Não iniciado |
-| RF03 | Editar Membro | Permitir que o coordenador atualize os dados cadastrais de um membro já existente (nome, e-mail, curso, etc.). | Alta | RF02 | Não iniciado |
-| RF04 | Listar Membros | Exibir a lista de todos os membros cadastrados, com opção de busca e visualização de status (ativo/inativo). | Alta | RF02 | Não iniciado |
-| RF05 | Inativar Membro | Permitir que o coordenador marque um membro como inativo, removendo-o das listagens de pontuação ativa sem excluir seu histórico. | Alta | RF02 | Não iniciado |
+| RF01 | Autenticar Usuário | Permitir que membros e coordenadores façam login utilizando e-mail institucional da UFC e senha, com validação de credenciais e emissão de sessão/token de acesso. | Alta | Nenhum | Concluído |
+| RF02 | Cadastrar Membro | Permitir que o coordenador cadastre um novo membro (PETiano) no sistema, informando nome, e-mail institucional, curso e data de ingresso no PET. | Alta | RF01 | Concluído |
+| RF03 | Editar Membro | Permitir que o coordenador atualize os dados cadastrais de um membro já existente (nome, e-mail, curso, etc.). | Alta | RF02 | Concluído |
+| RF04 | Listar Membros | Exibir a lista de todos os membros cadastrados, com opção de busca e visualização de status (ativo/inativo). | Alta | RF02 | Concluído |
+| RF05 | Inativar Membro | Permitir que o coordenador marque um membro como inativo, removendo-o das listagens de pontuação ativa sem excluir seu histórico. | Alta | RF02 | Concluído |
 | RF06 | Cadastrar Atividade | Permitir que o coordenador cadastre um novo tipo de atividade/evento (ex: artigo científico, visita técnica), definindo nome e categoria. | Alta | Nenhum | Não iniciado |
 | RF07 | Editar Atividade | Permitir que o coordenador atualize as informações de um tipo de atividade já cadastrado. | Alta | RF06 | Não iniciado |
 | RF08 | Listar Atividades | Exibir a lista de todos os tipos de atividades/eventos cadastrados no sistema. | Alta | RF06 | Não iniciado |
