@@ -1,4 +1,5 @@
 import { redirect } from "next/navigation"
+import Link from "next/link"
 import { createClient } from "@/lib/supabase/server"
 import { logout } from "./login/actions"
 
@@ -31,11 +32,21 @@ export default async function HomePage() {
           <span className="w-2 h-2 rounded-full bg-[#E8A33D]" />
           {perfil?.papel === "coordenador" ? "Coordenador" : "Membro"} · {perfil?.status}
         </div>
+
+        {perfil?.papel === "coordenador" && (
+          <Link
+            href="/membros"
+            className="mt-6 inline-block rounded-lg bg-[#12192B] text-white font-medium px-5 py-2.5 hover:bg-[#1c2740] transition-colors"
+          >
+            Gerenciar membros
+          </Link>
+        )}
+
         <p className="mt-10 text-sm text-[#8892A6]">
           O Painel de Líderes e o extrato de pontos ainda estão a caminho.
         </p>
 
-        <form action={logout} className="mt-8">
+        <form action={logout} className="mt-4">
           <button
             type="submit"
             className="text-sm text-[#8892A6] hover:text-[#12192B] underline underline-offset-2 transition-colors"
