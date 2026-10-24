@@ -34,12 +34,20 @@ export default async function HomePage() {
         </div>
 
         {perfil?.papel === "coordenador" && (
-          <Link
-            href="/membros"
-            className="mt-6 inline-block rounded-lg bg-[#12192B] text-white font-medium px-5 py-2.5 hover:bg-[#1c2740] transition-colors"
-          >
-            Gerenciar membros
-          </Link>
+          <div className="mt-6 flex flex-col gap-3">
+            <Link
+              href="/membros"
+              className="rounded-lg bg-[#12192B] text-white font-medium px-5 py-2.5 hover:bg-[#1c2740] transition-colors"
+            >
+              Gerenciar membros
+            </Link>
+            <Link
+              href="/atividades"
+              className="rounded-lg border border-[#12192B] text-[#12192B] font-medium px-5 py-2.5 hover:bg-gray-50 transition-colors"
+            >
+              Gerenciar atividades
+            </Link>
+          </div>
         )}
 
         <p className="mt-10 text-sm text-[#8892A6]">
