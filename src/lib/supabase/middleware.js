@@ -62,7 +62,19 @@ export async function updateSession(request) {
   // (redirecionando para a home) caso ele não seja coordenador ativo.
   // Essa checagem acontece ANTES da página carregar — ninguém sem
   // permissão chega a ver o conteúdo, nem por um instante.
-  if (user && rota.startsWith('/membros')) {
+  // REGRA 3: áreas restritas a coordenadores ativos.
+  // Para proteger uma nova área, basta adicionar o prefixo da rota nesta lista.
+  const rotasDeCoordenador = ['/membros', '/atividades']
+
+  const rotaRestrita = rotasDeCoordenador.some((prefixo) =>
+    rota.startsWith(prefixo)
+  )
+
+  // Consulta o papel/status do usuário logado e bloqueia o acesso
+  // (redirecionando para a home) caso ele não seja coordenador ativo.
+  // Essa checagem acontece ANTES da página carregar, então ninguém sem
+  // permissão chega a ver o conteúdo.
+  if (user && rotaRestrita) {
     const { data: perfil } = await supabase
       .from('perfis')
       .select('papel, status')
@@ -75,6 +87,4 @@ export async function updateSession(request) {
       return NextResponse.redirect(url)
     }
   }
-
-  return supabaseResponse
 }
