@@ -81,12 +81,12 @@ Consulte o arquivo [LICENSE](LICENSE) para mais detalhes.
 | RF03 | Editar Membro | Permitir que o coordenador atualize os dados cadastrais de um membro já existente (nome, e-mail, curso, etc.). | Alta | RF02 | Concluído |
 | RF04 | Listar Membros | Exibir a lista de todos os membros cadastrados, com opção de busca e visualização de status (ativo/inativo). | Alta | RF02 | Concluído |
 | RF05 | Inativar Membro | Permitir que o coordenador marque um membro como inativo, removendo-o das listagens de pontuação ativa sem excluir seu histórico. | Alta | RF02 | Concluído |
-| RF06 | Cadastrar Atividade | Permitir que o coordenador cadastre um novo tipo de atividade/evento (ex: artigo científico, visita técnica), definindo nome e categoria. | Alta | Nenhum | Não iniciado |
-| RF07 | Editar Atividade | Permitir que o coordenador atualize as informações de um tipo de atividade já cadastrado. | Alta | RF06 | Não iniciado |
-| RF08 | Listar Atividades | Exibir a lista de todos os tipos de atividades/eventos cadastrados no sistema. | Alta | RF06 | Não iniciado |
-| RF09 | Configurar Pontuação da Atividade | Permitir que o coordenador defina a pontuação padrão atribuída a cada tipo de atividade, conforme sua complexidade. | Alta | RF06 | Não iniciado |
-| RF10 | Lançar Pontuação Individual | Permitir que o coordenador registre a pontuação de um membro específico, selecionando o membro, a atividade realizada e a data de execução. | Alta | RF02, RF09 | Não iniciado |
-| RF11 | Lançar Pontuação em Lote | Permitir que o coordenador registre pontuação para múltiplos membros simultaneamente, para atividades realizadas em grupo. | Média | RF10 | Não iniciado |
+| RF06 | Cadastrar Atividade | Permitir que o coordenador cadastre um novo tipo de atividade/evento (ex: artigo científico, visita técnica), definindo nome e categoria. | Alta | Nenhum | Concluído |
+| RF07 | Editar Atividade | Permitir que o coordenador atualize as informações de um tipo de atividade já cadastrado. | Alta | RF06 | Concluído|
+| RF08 | Listar Atividades | Exibir a lista de todos os tipos de atividades/eventos cadastrados no sistema. | Alta | RF06 | Concluído |
+| RF09 | Configurar Pontuação da Atividade | Permitir que o coordenador defina a pontuação padrão atribuída a cada tipo de atividade, conforme sua complexidade. | Alta | RF06 | Concluído |
+| RF10 | Lançar Pontuação Individual | Permitir que o coordenador registre a pontuação de um membro específico, selecionando o membro, a atividade realizada e a data de execução. | Alta | RF02, RF09 | Concluído |
+| RF11 | Lançar Pontuação em Lote | Permitir que o coordenador registre pontuação para múltiplos membros simultaneamente, para atividades realizadas em grupo. | Média | RF10 |Concluído |
 | RF12 | Consultar Extrato de Pontos | Permitir que o membro visualize seu histórico individual de pontuação, detalhado por data, tipo de atividade e pontos ganhos. | Alta | RF01, RF10 | Não iniciado |
 | RF13 | Exibir Painel de Líderes | Exibir, em tempo real, o ranking dos membros ordenado por pontuação semestral decrescente, atualizando automaticamente a cada novo lançamento. | Alta | RF10 | Não iniciado |
 | RF14 | Filtrar Painel de Líderes | Permitir que o usuário filtre o Painel de Líderes por período específico (mês atual, semestre corrente ou semestres anteriores). | Média | RF13 | Não iniciado |
@@ -98,8 +98,8 @@ Consulte o arquivo [LICENSE](LICENSE) para mais detalhes.
 | RF20 | Aprovar Solicitação de Ajuste | Permitir que o coordenador aprove uma solicitação de ajuste, atualizando automaticamente a pontuação do membro conforme o pedido. | Média | RF18 | Não iniciado |
 | RF21 | Rejeitar Solicitação de Ajuste | Permitir que o coordenador rejeite uma solicitação de ajuste, mantendo a pontuação original e informando o motivo ao membro. | Média | RF18 | Não iniciado |
 | RF22 | Configurar Semestre Letivo | Permitir que o coordenador defina as datas de início e término do semestre letivo, incluindo a configuração do zeramento automático do ranking. | Alta | Nenhum | Não iniciado |
-| RF23 | Editar Lançamento de Pontuação | Permitir que o coordenador corrija um lançamento de pontuação realizado com erro de digitação. | Alta | RF10 | Não iniciado |
-| RF24 | Excluir Lançamento de Pontuação | Permitir que o coordenador exclua um lançamento de pontuação realizado indevidamente. | Alta | RF10 | Não iniciado |
+| RF23 | Editar Lançamento de Pontuação | Permitir que o coordenador corrija um lançamento de pontuação realizado com erro de digitação. | Alta | RF10 | Concluído |
+| RF24 | Excluir Lançamento de Pontuação | Permitir que o coordenador exclua um lançamento de pontuação realizado indevidamente. | Alta | RF10 |Concluído |
 | RF25 | Exibir Pódio do Semestre | Exibir uma interface em destaque com os três primeiros colocados (1º, 2º e 3º lugares) ao final do período letivo, oficializando os vencedores do semestre. | Alta | RF13, RF22 | Não iniciado |
 
 </details>
