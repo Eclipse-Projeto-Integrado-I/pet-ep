@@ -47,6 +47,22 @@ export default async function HomePage() {
             >
               Gerenciar atividades
             </Link>
+            <Link
+              href="/lancamentos"
+              className="rounded-lg border border-[#12192B] text-[#12192B] font-medium px-5 py-2.5 hover:bg-gray-50 transition-colors"
+            >
+              Gerenciar lançamentos
+            </Link>
+          </div>
+        )}
+        {perfil?.papel === "membro" && (
+          <div className="mt-6 flex flex-col gap-3">
+            <Link
+              href="/extrato"
+              className="rounded-lg bg-[#12192B] text-white font-medium px-5 py-2.5 hover:bg-[#1c2740] transition-colors"
+            >
+              Meu extrato
+            </Link>
           </div>
         )}
 
