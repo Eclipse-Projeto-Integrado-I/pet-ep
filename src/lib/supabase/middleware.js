@@ -64,7 +64,7 @@ export async function updateSession(request) {
   // permissão chega a ver o conteúdo, nem por um instante.
   // REGRA 3: áreas restritas a coordenadores ativos.
   // Para proteger uma nova área, basta adicionar o prefixo da rota nesta lista.
-  const rotasDeCoordenador = ['/membros', '/atividades']
+   const rotasDeCoordenador = ['/membros', '/atividades', '/lancamentos']
 
   const rotaRestrita = rotasDeCoordenador.some((prefixo) =>
     rota.startsWith(prefixo)
