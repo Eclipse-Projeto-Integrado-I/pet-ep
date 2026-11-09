@@ -88,7 +88,7 @@ Consulte o arquivo [LICENSE](LICENSE) para mais detalhes.
 | RF10 | Lançar Pontuação Individual | Permitir que o coordenador registre a pontuação de um membro específico, selecionando o membro, a atividade realizada e a data de execução. | Alta | RF02, RF09 | Concluído |
 | RF11 | Lançar Pontuação em Lote | Permitir que o coordenador registre pontuação para múltiplos membros simultaneamente, para atividades realizadas em grupo. | Média | RF10 |Concluído |
 | RF12 | Consultar Extrato de Pontos | Permitir que o membro visualize seu histórico individual de pontuação, detalhado por data, tipo de atividade e pontos ganhos. | Alta | RF01, RF10 | Concluído |
-| RF13 | Exibir Painel de Líderes | Exibir, em tempo real, o ranking dos membros ordenado por pontuação semestral decrescente, atualizando automaticamente a cada novo lançamento. | Alta | RF10 | Não iniciado |
+| RF13 | Exibir Painel de Líderes | Exibir, em tempo real, o ranking dos membros ordenado por pontuação semestral decrescente, atualizando automaticamente a cada novo lançamento. | Alta | RF10 | Concluído |
 | RF14 | Filtrar Painel de Líderes | Permitir que o usuário filtre o Painel de Líderes por período específico (mês atual, semestre corrente ou semestres anteriores). | Média | RF13 | Não iniciado |
 | RF15 | Cadastrar Meta de Conquista | Permitir que o coordenador defina metas de pontuação associadas a conquistas/badges digitais. | Média | RF06 | Não iniciado |
 | RF16 | Atribuir Badge Automaticamente | Atribuir automaticamente uma medalha/badge digital ao membro assim que ele atingir a meta de pontos configurada. | Média | RF10, RF15 | Não iniciado |
