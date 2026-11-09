@@ -65,10 +65,14 @@ export default async function HomePage() {
             </Link>
           </div>
         )}
-
-        <p className="mt-10 text-sm text-[#8892A6]">
-          O Painel de Líderes e o extrato de pontos ainda estão a caminho.
-        </p>
+        <div className="mt-3 flex flex-col gap-3">
+          <Link
+            href="/ranking"
+            className="rounded-lg border border-[#12192B] text-[#12192B] font-medium px-5 py-2.5 hover:bg-gray-50 transition-colors"
+          >
+            Painel de Líderes
+          </Link>
+        </div>
 
         <form action={logout} className="mt-4">
           <button
